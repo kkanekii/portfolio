@@ -15,18 +15,8 @@ const Resume = ({ data }) => {
         </div>
       );
     });
-    var work = data.work.map(function (work) {
-      return (
-        <div key={work.company}>
-          <h3>{work.company}</h3>
-          <p className="info">
-            {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
-          </p>
-          <p>{work.description}</p>
-        </div>
-      );
-    });
+
+    ;
     var skills = data.skills.map(function (skills) {
       var className = "bar-expand " + skills.name.toLowerCase();
       return (
@@ -37,6 +27,7 @@ const Resume = ({ data }) => {
       );
     });
   }
+  
 
   return (
     <section id="resume">
@@ -61,7 +52,6 @@ const Resume = ({ data }) => {
           </h1>
         </div>
 
-        <div className="nine columns main-col">{work}</div>
       </div>
 
       <div className="row skill">
@@ -81,6 +71,6 @@ const Resume = ({ data }) => {
       </div>
     </section>
   );
-};
+}
 
 export default Resume;
