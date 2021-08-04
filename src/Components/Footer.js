@@ -23,7 +23,7 @@ const Footer = ({ data }) => {
             <li>
               Made by{" "}
               <a title="kkanekii" href="https://github.com/kkanekii">
-                PAPA
+                Jai Sheth
               </a>
             </li>
           </ul>

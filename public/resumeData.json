@@ -5,9 +5,8 @@
     "description": "Im made of React yes, even there",
     "image": "profilepic.jpg",
     "bio" : "Hello There!, My name is Jai, You might know me as kkanekii on GitHub. I am a ",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
+    "contactmessage": "Get in touch with me!",
     "email": "jksheth46@gmail.com",
-    "website": "https://www.papareact.com/course",
     "social": [
       {
         "name": "youtube",
@@ -74,10 +73,6 @@
       {
         "text": "Jai is an excelent designer and developer, who helped me learn React, Well Done Jai!",
         "user": "Aarush Shah"
-      },
-      {
-        "text": "",
-        "user": "Yash Kriplani"
       }
     ]
   }
